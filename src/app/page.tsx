@@ -74,18 +74,7 @@ const SECTIONS = [
 
 export default function Home() {
   return (
-    <Box
-      as="main"
-      bg="black"
-      css={{
-        scrollSnapType: "y mandatory",
-        overflowY: "scroll",
-        height: "100vh",
-        "& > *": {
-          scrollSnapAlign: "start",
-        },
-      }}
-    >
+    <Box as="main" bg="black">
       {SECTIONS.map((section, idx) => (
         <Box key={idx} position="relative">
           <Section {...section} />
