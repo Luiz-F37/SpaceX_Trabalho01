@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react"
 import { Section } from "@/components/home/section"
-import { Footer } from "@/components/ui/footer"
+import { Footer } from "@/components/footer"
 
 const SECTIONS = [
   {

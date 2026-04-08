@@ -4,7 +4,7 @@ import { HStack, Text, Link as ChakraLink, Box, IconButton, VStack } from "@chak
 import NextLink from "next/link"
 import { useState } from "react"
 import { LuMenu, LuX, LuChevronDown } from "react-icons/lu"
-import { ColorModeButton } from "./color-mode"
+import { ColorModeButton } from "./ui/color-mode"
 
 type NavItem = {
   label: string

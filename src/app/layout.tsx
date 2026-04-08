@@ -1,6 +1,6 @@
 import { Provider } from "@/components/ui/provider"
 import "../styles/globals.css"
-import { Header } from "@/components/ui/header"
+import { Header } from "@/components/header"
 
 export const metadata = {
   title: "SpaceX",
